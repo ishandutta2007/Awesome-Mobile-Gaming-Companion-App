@@ -1,149 +1,121 @@
-# Awesome-Mobile-Gaming-Companion-App
-
-# Awesome-Mobile-Gaming-Companion-App
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Console Companion Apps, Controller Utilities, Game Server Panels & Crew Coordination*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial companion apps** and **open-source projects** for **Mobile Gaming Companion Apps**. These tools help gamers manage consoles remotely, pair controllers, monitor game performance, run private game servers, and coordinate with their crew.
-
-
-
-**Examples** include Xbox Mobile App, PlayStation App, Nintendo Switch App, Steam Mobile App, Battle.net Mobile, EA Mobile Companion, Discord Mobile, Razer Nexus, Backbone App, and GameBench (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source mobile gaming ecosystem is **exceptionally vibrant and community-driven**. **m3llo** provides a fully self-hostable crew app with voice, streaming, and a session feed — built in Rust with Apache 2.0 licensing . **Pelican Panel** and **GameAP** deliver modern, free game server management panels that replace Pterodactyl . **Squawk** is a private, self-hosted voice and text chat app designed for gaming groups over Tailscale . **Fresence** brings Discord-style presence to small friend groups with end-to-end encryption .
-
-
-
-## 📖 Table of Contents
-
-
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ SaaS/Hosted Platforms
-
-
-
-> **📊 Market Context**: The global mobile gaming companion app market is estimated at **~$2B in 2026**, growing toward **~$5B by 2032**. The sector is **moderately fragmented** — first-party console apps (Xbox, PlayStation, Nintendo) dominate by user count, while specialized tools (Razer Nexus, Backbone, GameBench) serve controller and performance niches. **Pricing varies dramatically**: **Xbox Mobile App**, **PlayStation App**, **Nintendo Switch App**, **Steam Mobile App**, and **Battle.net Mobile** are **completely free** . **Razer Nexus** is **free with no subscription** . **Backbone** is **free with an optional Backbone+ subscription** for party chat and streaming . **GameBench** requires a **paid account** for performance testing . No single vendor holds a winner-take-all position.
-
-
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|----------|-------------|------------------------|------------------|--------------|
-
-| **[Xbox Mobile App](https://www.xbox.com/)** | **Microsoft's console companion.** Game Pass access, remote installs, parties, achievements, and Remote Play. | **Free** — no paid tier  | **Unlimited** — free with Xbox account  | **~$281B revenue (Microsoft FY2025)** |
-
-| **[PlayStation App](https://www.playstation.com/)** | **Sony's console companion.** Trophy tracking, PSN store, Remote Play launching, and friend activity. | **Free** — no paid tier  | **Unlimited** — free with PSN account  | **~$30B gaming revenue (Sony FY2025 est.)** |
-
-| **[Nintendo Switch App](https://www.nintendo.com/)** | **Nintendo's companion.** Friend status, QR code adding, media viewing, and game-specific features (Zelda, Splatoon, GameChat). | **Free** — no paid tier  | **Unlimited** — free with Nintendo account  | **~$12B revenue (Nintendo FY2025 est.)** |
-
-| **[Steam Mobile App](https://store.steampowered.com/)** | **Valve's companion.** Steam Guard authentication, remote downloads, store browsing, and chat. | **Free** — no paid tier | **Unlimited** — free with Steam account | **~$6.5B revenue (Valve est.)** |
-
-| **[Razer Nexus](https://www.razer.com/)** | **Controller companion for Razer Kishi/Prio.** Firmware updates, button remapping, Virtual Controller Mode for touch-only games. | **Free** — no subscription  | **Unlimited** — free with Razer controller  | **~$1.5B revenue (Razer FY2025 est.)** |
-
-| **[Backbone App](https://backbone.com/)** | **All-in-one library and clip management.** Indexes native Android games, cloud subscriptions, and Bluetooth pads. Overlay capture, party chat, friends feed. | **Free** — with optional **Backbone+ subscription** for advanced features  | **Free tier**: Day-to-day use, library, pairing. **Backbone+**: Party chat, Twitch streaming, extended capture  | **Private (~$100M+ raised)** |
-
-| **[GameBench](https://www.gamebench.net/)** | **Mobile game performance profiling.** FPS, power consumption, memory usage, and stability testing. | **Paid account** required  | **No free tier** — requires account  | **Private (GameBench)** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-| Repo | Description | Stars |
-
-|------|-------------|-------|
-
-| **[m3llo](https://github.com/mollohq/mello)** — **Free, open-source app for gaming crews.** **Voice chat** (low latency, neural noise cancellation), **1080p60 streaming** (hardware encoded), **text chat** (markdown, replies, reactions, GIFs), and a **crew feed** that remembers gaming sessions. Perfect for crews up to **100 people**. **Apache 2.0**, self-hostable with no dependency on external infrastructure. **Alpha software** — building in public . | [![Stars](https://img.shields.io/github/stars/mollohq/mello?style=social&color=white)](https://github.com/mollohq/mello/stargazers) | ~500 |
-
-| **[Pelican Panel](https://github.com/parkervcp/panel)** — **Free, open-source game server control panel.** Modern web UI for creating and managing game servers, running each in isolated Docker containers via Wings. Supports **Minecraft, SteamCMD games, databases, bots, voice servers, and more**. **Pterodactyl alternative** for communities, hosts, and self-hosters. Built by volunteers . | [![Stars](https://img.shields.io/github/stars/parkervcp/panel?style=social&color=white)](https://github.com/parkervcp/panel/stargazers) | ~2,000 |
-
-| **[GameAP](https://github.com/gameap/gameap)** — **High-performance, free and open-source game server management panel.** **Pterodactyl and Pelican alternative**. Embedded **Let's Encrypt ACME** client with in-process certificate management, **Docker support**, and multi-instance deployments via S3 file storage. Go-based . | [![Stars](https://img.shields.io/github/stars/gameap/gameap?style=social&color=white)](https://github.com/gameap/gameap/stargazers) | ~1,500 |
-
-| **[OpenKruiseGame (OKG)](https://github.com/openkruise/kruise-game)** — **CNCF Kubernetes workload specialized for game servers.** Multicloud-oriented, open-source. Supports **hot update**, **in-place update**, management of **specified game servers**, multiple network models (fixed IP/port, lossless direct connection), auto scaling, and complex game server orchestration. Go-based . | [![Stars](https://img.shields.io/github/stars/openkruise/kruise-game?style=social&color=white)](https://github.com/openkruise/kruise-game/stargazers) | ~1,000 |
-
-| **[GameServerManager (GSM)](https://github.com/GSManagerXZ/GameServerManager)** — **Modern one-click game server deployment panel.** **React + TypeScript + Node.js** architecture. Supports **40+ Steam games** including Palworld, Rust, Valheim, 7 Days to Die, and Project Zomboid. Features: real-time Web terminal (Xterm.js), resource monitoring, JWT authentication, WebSocket communication, and graphical config editing . | [![Stars](https://img.shields.io/github/stars/GSManagerXZ/GameServerManager?style=social&color=white)](https://github.com/GSManagerXZ/GameServerManager/stargazers) | ~500 |
-
-| **[Squawk](https://github.com/shynsec/squawk)** — **Private, self-hosted voice and text chat app for gaming groups.** Accessible only via **Tailscale VPN** — no accounts, no ads, no data leaving your machine. **Low-latency WebRTC audio**, always-on channels, text chat with typing indicators, channel ownership controls, and mobile responsive layout. **Docker-ready** with two commands . | [![Stars](https://img.shields.io/github/stars/shynsec/squawk?style=social&color=white)](https://github.com/shynsec/squawk/stargazers) | ~300 |
-
-| **[Fresence](https://github.com/Berupor/Fresence)** — **Presence for a small group of friends.** Discord-style status bar without Discord. Every device gets a card with tiles (focused app, track, Steam game, weather, clock, photo). **End-to-end encrypted** — server stores blobs but cannot read them. Invite-only, works on phone and desktop . | [![Stars](https://img.shields.io/github/stars/Berupor/Fresence?style=social&color=white)](https://github.com/Berupor/Fresence/stargazers) | ~200 |
-
-| **[Cobalt](https://github.com/artorias-developer/cobalt)** — **Self-hosted game server dashboard for friend groups.** Web dashboard for running game servers on your own VPS/VDS. Supports **Minecraft, Terraria, Don't Starve Together, Factorio, RimWorld, 7 Days to Die, Project Zomboid, Barotrauma**. Each server runs in isolated Docker containers. Real-time CPU/RAM monitoring, file manager, multi-user roles . | [![Stars](https://img.shields.io/github/stars/artorias-developer/cobalt?style=social&color=white)](https://github.com/artorias-developer/cobalt/stargazers) | ~200 |
-
-| **[LunaChron](https://github.com/Garemat/lunachron)** — **Companion app for the Moonstone tabletop miniatures game.** Track health, energy, moonstones, and abilities during games. Troupe builder with QR code sharing, local multiplayer over Wi-Fi, and campaign tracking. **Fully offline**, no accounts, no ads, no tracking. Available on F-Droid . | [![Stars](https://img.shields.io/github/stars/Garemat/lunachron?style=social&color=white)](https://github.com/Garemat/lunachron/stargazers) | ~100 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|------|-------------|
-
-| **[Fresence Agent](https://github.com/Berupor/Fresence)** — Linux agent CLI for the Fresence presence app. `fresence join`, `fresence status`, `fresence watch` . |
-
-| **[GameBench SDK](https://docs.gamebench.net/)** — Integrate performance monitoring into CI/CD pipelines . |
-
-| **[AccelByte Grafana Integration](https://docs.accelbyte.io/)** — Real-time game health, matchmaking, and server monitoring dashboards via Grafana Cloud . |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Companion apps handle account credentials and gaming activity data; ensure compliance with platform terms of service and privacy regulations.
-
-- **Open-source reality**: The open-source ecosystem for mobile gaming companions is **exceptionally vibrant and community-driven**. **m3llo** provides a fully self-hostable crew app with voice, streaming, and session history . **Pelican Panel** and **GameAP** deliver production-grade game server management . **Squawk** and **Fresence** bring private communication to gaming groups . However, **commercial platforms** (Xbox App, PlayStation App, Razer Nexus) provide **first-party console integration, polished mobile experiences, and seamless hardware pairing** that open-source alternatives cannot match. The open-source path is **genuinely viable** for self-hosted game servers, private voice chat, and crew coordination.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Mobile Gaming Companion App Banner" width="100%">
+</p>
+
+# 🎮 Awesome Mobile Gaming Companion App 📱⚡
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **Curated List of Commercial SaaS Companion Apps & Open-Source Mobile Gaming Projects** 🚀  
+> *Discover high-performance Console Companion Apps, Game Server Control Panels, Controller Mapping Utilities, Game Streaming Tools, and Gaming Crew Voice/Chat Solutions.*
+
+📅 **Last updated: October 2026**
 
 ---
 
+## 🌟 Overview & Market Context 📌
 
+This repository curates notable **commercial SaaS companion platforms** and **open-source GitHub projects** designed for **Mobile Gaming Companions & Game Management Infrastructure**. These tools empower gamers, server administrators, and crews to remotely manage consoles, pair Bluetooth/USB gamepads, profile mobile FPS/RAM performance, deploy private dedicated game servers, and stream low-latency audio/video.
 
-**Made for mobile gamers, private server operators, crew leaders, and open-source enthusiasts.**
+Popular first-party and commercial companion solutions include **Xbox Mobile App**, **PlayStation App**, **Nintendo Switch Online App**, **Steam Mobile App**, **Razer Nexus**, **Backbone App**, and **GameBench**.
 
-Let's make mobile gaming companions more open, transparent, and community-driven.
+The open-source mobile gaming companion ecosystem is **exceptionally vibrant and community-driven** 🔥:
+- 🎮 **Game Streaming & Remote Play**: **Sunshine** & **Moonlight** provide ultra-low-latency game streaming to mobile devices.
+- 🛠️ **Game Server Panels**: **Pterodactyl Panel**, **Pelican Panel**, and **GameAP** deliver containerized game server deployment.
+- 🎙️ **Crew Voice & Presence**: **m3llo**, **Squawk**, and **Fresence** offer self-hosted, private crew chat and stream sharing.
+
+---
+
+## 📖 Table of Contents 📑
+
+- [☁️ SaaS / Hosted Platforms](#%EF%B8%8F-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## ☁️ SaaS / Hosted Platforms 🌐
+
+> **📊 Market Context & Fragmentation**: The global mobile gaming companion app and game management software market is estimated at **~$2.5B in 2026** and projected to reach **~$5.8B by 2032**. The sector is **moderately fragmented** — first-party ecosystem apps (Microsoft Xbox, Sony PlayStation, Nintendo Switch) lead in total active user volumes, while specialized hardware vendors (Razer, Backbone) and enterprise performance profilers (GameBench) serve controller utilities and QA niches. There is **no single winner-take-all monopoly**.
+
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
+|----------|-------------|------------------------|------------------|--------------|
+| **[Xbox Mobile App](https://www.xbox.com/)** 🟢 | **Microsoft's console companion.** Game Pass management, remote installs, party chat, achievements, and Xbox Remote Play. | **Free** ($0/mo) | **Unlimited** core companion & Remote Play features with free Xbox account | **~$281B revenue (Microsoft FY2025)** |
+| **[PlayStation App](https://www.playstation.com/)** 💙 | **Sony's console companion.** Trophy tracking, PS Store shopping, Remote Play launching, and PSN friend activity. | **Free** ($0/mo) | **Unlimited** core companion & party features with free PSN account | **~$30B gaming revenue (Sony FY2025 est.)** |
+| **[Nintendo Switch App](https://www.nintendo.com/)** 🔴 | **Nintendo's companion.** Friend status, QR code sharing, voice chat, and game-specific services (Splatoon, Smash Bros). | **Free** ($0/mo) | **Unlimited** core companion features with free Nintendo account | **~$12B revenue (Nintendo FY2025 est.)** |
+| **[Steam Mobile App](https://store.steampowered.com/)** 💨 | **Valve's companion.** Steam Guard 2FA authenticator, remote game downloads, store browsing, and Steam Community chat. | **Free** ($0/mo) | **Unlimited** Steam Guard, store, and chat features with free Steam account | **~$6.5B revenue (Valve est.)** |
+| **[Razer Nexus](https://www.razer.com/)** 🐍 | **Controller companion for Razer Kishi/Prio.** Firmware updates, button remapping, and Virtual Controller touch mode. | **Free** ($0/mo) | **Unlimited** remapping, firmware updates, and launcher features | **~$1.5B revenue (Razer FY2025 est.)** |
+| **[Backbone App](https://backbone.com/)** 🕹️ | **All-in-one game launcher & clip manager.** Indexes Android games, cloud services, screen record, and party chat. | **$39.99/year** ($3.33/mo) for Backbone+ | **Free tier**: Unlimited library launcher & firmware updates. **Backbone+**: 30-day free trial included | **Private (~$100M+ raised / valuation)** |
+| **[GameBench](https://www.gamebench.net/)** 📊 | **Mobile game performance profiling.** Real-time FPS monitoring, battery power draw, RAM usage, and stability testing. | **Custom Enterprise Quote** (contact sales) | **28-day free trial** with 30 mins of GameBench Pro testing & unlimited dashboard access | **Private (Bootstrapped / Venture)** |
+
+---
+
+## 🔓 Open-Source GitHub Projects ⚡
+
+*Sorted in descending order by GitHub Star count.* 🌟
+
+| Repo | Description | Stars |
+|------|-------------|-------|
+| **[Sunshine](https://github.com/LizardByte/Sunshine)** ☀️ | **Self-hosted low-latency game stream host.** Open-source Moonlight server supporting desktop and mobile streaming with low latency, hardware encoding (NVIDIA NVENC, AMD AMF, Intel QuickSync). | [![Sunshine Stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=social&color=white)](https://github.com/LizardByte/Sunshine/stargazers) |
+| **[Playnite](https://github.com/JosefNemec/Playnite)** 🎮 | **Open-source video game library manager.** Unifies Steam, Epic, GOG, Origin, Ubisoft, and emulator libraries with mobile remote control & metadata scraper extensions. | [![Playnite Stars](https://img.shields.io/github/stars/JosefNemec/Playnite?style=social&color=white)](https://github.com/JosefNemec/Playnite/stargazers) |
+| **[Pterodactyl Panel](https://github.com/pterodactyl/panel)** 🦖 | **Production-grade game server management panel.** Built with PHP/Laravel and React. Deploys game servers in isolated Docker containers via Wings runner. | [![Pterodactyl Panel Stars](https://img.shields.io/github/stars/pterodactyl/panel?style=social&color=white)](https://github.com/pterodactyl/panel/stargazers) |
+| **[Moonlight Android](https://github.com/moonlight-stream/moonlight-android)** 🌙 | **Open-source NVIDIA GameStream / Sunshine client for Android.** Stream PC games directly to Android phones, tablets, and handheld consoles at 120 FPS with HDR support. | [![Moonlight Android Stars](https://img.shields.io/github/stars/moonlight-stream/moonlight-android?style=social&color=white)](https://github.com/moonlight-stream/moonlight-android/stargazers) |
+| **[Pelican Panel](https://github.com/parkervcp/panel)** 🦤 | **Modern, open-source game server control panel.** Lightweight Pterodactyl alternative featuring native web panel UI, Docker container management, and single-binary Wings daemon. | [![Pelican Panel Stars](https://img.shields.io/github/stars/parkervcp/panel?style=social&color=white)](https://github.com/parkervcp/panel/stargazers) |
+| **[GameAP](https://github.com/gameap/gameap)** ⚡ | **High-performance game server management panel.** Go-based Pterodactyl alternative with built-in ACME SSL, Docker support, and multi-node S3 deployments. | [![GameAP Stars](https://img.shields.io/github/stars/gameap/gameap?style=social&color=white)](https://github.com/gameap/gameap/stargazers) |
+| **[OpenKruiseGame (OKG)](https://github.com/openkruise/kruise-game)** ☸️ | **CNCF Kubernetes workload for game servers.** Multicloud cloud-native game server orchestration with hot updates, fixed IP/port routing, and auto-scaling. | [![OpenKruiseGame Stars](https://img.shields.io/github/stars/openkruise/kruise-game?style=social&color=white)](https://github.com/openkruise/kruise-game/stargazers) |
+| **[m3llo](https://github.com/mollohq/mello)** 🎙️ | **Self-hostable voice, text & streaming app for gaming crews.** Built in Rust (Apache 2.0). Low-latency voice with noise cancellation, 1080p60 streaming, and session history feed. | [![m3llo Stars](https://img.shields.io/github/stars/mollohq/mello?style=social&color=white)](https://github.com/mollohq/mello/stargazers) |
+| **[GameServerManager (GSM)](https://github.com/GSManagerXZ/GameServerManager)** 🕹️ | **One-click game server deployment panel.** React + TypeScript + Node.js architecture supporting 40+ Steam games (Palworld, Rust, Valheim, Project Zomboid) with web Xterm.js terminal. | [![GSM Stars](https://img.shields.io/github/stars/GSManagerXZ/GameServerManager?style=social&color=white)](https://github.com/GSManagerXZ/GameServerManager/stargazers) |
+| **[Squawk](https://github.com/shynsec/squawk)** 🦜 | **Private, self-hosted voice & text chat for gaming groups.** Tailscale VPN-only WebRTC audio, zero-trackers, always-on channels, and mobile-responsive layout. | [![Squawk Stars](https://img.shields.io/github/stars/shynsec/squawk?style=social&color=white)](https://github.com/shynsec/squawk/stargazers) |
+| **[Fresence](https://github.com/Berupor/Fresence)** 📡 | **End-to-end encrypted friend presence widget.** Discord-style activity cards displaying current playing game, media track, and status across mobile and desktop. | [![Fresence Stars](https://img.shields.io/github/stars/Berupor/Fresence?style=social&color=white)](https://github.com/Berupor/Fresence/stargazers) |
+| **[Cobalt](https://github.com/artorias-developer/cobalt)** 🛡️ | **Self-hosted game server dashboard for small communities.** VPS dashboard for Docker game servers (Minecraft, Terraria, DST, Factorio) with real-time CPU/RAM metrics. | [![Cobalt Stars](https://img.shields.io/github/stars/artorias-developer/cobalt?style=social&color=white)](https://github.com/artorias-developer/cobalt/stargazers) |
+| **[LunaChron](https://github.com/Garemat/lunachron)** 🎲 | **Tabletop miniature game companion app.** Track health, energy, and abilities for Moonstone games offline. Features QR troupe sharing and local Wi-Fi sync. | [![LunaChron Stars](https://img.shields.io/github/stars/Garemat/lunachron?style=social&color=white)](https://github.com/Garemat/lunachron/stargazers) |
+
+---
+
+## 🤝 How to Contribute 🛠️
+
+Contributions are welcome! Please follow these simple steps:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/Edit** entries in `README.md` following the exact table structure.
+3. 📌 **Include**: Project Name, URL, brief 1-2 sentence description, and GitHub star badge.
+4. 🚀 **Submit a Pull Request** with a descriptive title!
+
+---
+
+## 💖 Support & Sponsorship 🙏
+
+If you find this curated list helpful for discovering mobile gaming companion apps and game server infrastructure, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub!
+- 🔀 **Fork & Share** it with your gaming crew, server admin friends, and developer communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance of awesome developer resources, check out the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007). Thank you for your support! ❤️
+
+---
+
+## 📈 Star History 📊
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Mobile-Gaming-Companion-App&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Mobile-Gaming-Companion-App&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer 🔒
+
+- This list is **community-curated** for educational and research purposes — not an official endorsement.
+- Companion apps process gaming account credentials and telemetry data; always ensure compliance with original platform Terms of Service and privacy policies.
+- The open-source mobile gaming companion ecosystem offers powerful self-hosted alternatives (**Sunshine/Moonlight**, **Pterodactyl/Pelican**, **m3llo**), but commercial console apps (**Xbox**, **PlayStation**, **Nintendo**) provide exclusive first-party API integrations and native console pairing.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for mobile gamers, private server operators, crew leaders, and open-source enthusiasts.</b>
+</p>
