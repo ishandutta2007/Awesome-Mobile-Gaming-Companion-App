@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Mobile-Gaming-Companion-App/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Mobile-Gaming-Companion-App?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,9 +61,9 @@ The open-source mobile gaming companion ecosystem is **exceptionally vibrant and
 
 ## 🔓 Open-Source GitHub Projects ⚡
 
-*Sorted in descending order by GitHub Star count.* 🌟
+*Sorted in descending order by GitHub Stars_Count.* 🌟
 
-| Repo | Description | Stars |
+| Repo | Description | GitHub_Stars |
 |------|-------------|-------|
 | **[Sunshine](https://github.com/LizardByte/Sunshine)** ☀️ | **Self-hosted low-latency game stream host.** Open-source Moonlight server supporting desktop and mobile streaming with low latency, hardware encoding (NVIDIA NVENC, AMD AMF, Intel QuickSync). | [![Sunshine Stars](https://img.shields.io/github/stars/LizardByte/Sunshine?style=social&color=white)](https://github.com/LizardByte/Sunshine/stargazers) |
 | **[Playnite](https://github.com/JosefNemec/Playnite)** 🎮 | **Open-source video game library manager.** Unifies Steam, Epic, GOG, Origin, Ubisoft, and emulator libraries with mobile remote control & metadata scraper extensions. | [![Playnite Stars](https://img.shields.io/github/stars/JosefNemec/Playnite?style=social&color=white)](https://github.com/JosefNemec/Playnite/stargazers) |
@@ -87,7 +87,7 @@ Contributions are welcome! Please follow these simple steps:
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add/Edit** entries in `README.md` following the exact table structure.
-3. 📌 **Include**: Project Name, URL, brief 1-2 sentence description, and GitHub star badge.
+3. 📌 **Include**: Project Name, URL, brief 1-2 sentence description, and GitHub Stars_Badge.
 4. 🚀 **Submit a Pull Request** with a descriptive title!
 
 ---
